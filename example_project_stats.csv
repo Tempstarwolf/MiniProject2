@@ -1,2 +1,11 @@
 project;#commits;#authors;From;To;#stars;#forks;LastGHCommitDate;LongestGapStart (YYYY-MM), ;LongestGapEnd (YYYY-MM),;LongestGapLength;NumCommitsAfterLastGap;pattern
-mmorise_world;347;47;1447574109;1729696092;1300;261;2025/02/21;2022-02;2023-04;15;9;declining
+lfpy_lfpy;2316;38;1308649102;1762947074;93;48;2026/05/13;;;;;
+numenta_nupic;21642;556;1318109689;1671498852;6400;1500;2024/12/03;;;;;
+sem-jl_sem.jl;2198;19;1576597701;1762369530;54;6;2026/08/13;;;;;
+cardinalkit_cardinalkit;844;47;1567376949;1762019030;182;53;2025/11/15;;;;;
+annecori_epiestim;756;36;1446815396;1749629840;105;40;2026/07/20;;;;;
+yulunzhang_rcan;43;7;1530634975;1744597513;1500;319;2025/04/01;;;;;
+hol137_jupyter-notebook-practice-physical-constants-ratios;107;4;1542880171;1734793229;0;0;2024/12/21;;;;;
+qupath_qupath;5354;54;1472394701;1762538018;1400;361;2026/09/23;;;;;
+ceedee666_opensap_python_intro;739;8;1629441025;1740597559;5;1;2025/02/26;;;;;
+deepmind_acme;1523;132;1589569078;1762067447;4100;533;2026/09/16;;;;;
