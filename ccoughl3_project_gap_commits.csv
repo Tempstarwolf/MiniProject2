@@ -1,0 +1,433 @@
+pre/post;prj;commit;author;time;message
+pre;lfpy_lfpy;feea429265895f34991c74e98121654cee21952c;ehagen <ehagen@2d86cfe5-f61f-4435-902d-8fa86043e322>;1316008319;some little docstring
+pre;lfpy_lfpy;fefcdc721f041aec0c7ae21c0c5a1cd9aa7b4762;Espen Hagen <espenhgn@gmail.com>;1492599199;"Test LFPy w. TravisCI & Python 3.6 (#39)
+
+"
+pre;lfpy_lfpy;ff0c64f697ef9e4f85efe5c8d6c7c0a12172dcd8;ehagen <ehagen@2d86cfe5-f61f-4435-902d-8fa86043e322>;1316084353;fixed pointsource calc, method flag
+pre;lfpy_lfpy;ff118926b0173d6b03195dd3fde6f9fcb852f8d6;ehagen <espenhgn@gmail.com>;1372192546;print a warning when deleting existing sections
+pre;lfpy_lfpy;ff3b9f1f9397710c286222306bd84afb44db777f;ehagen <espenhgn@users.noreply.github.com>;1349255998;changed a bit how allseclist is constructed and used
+pre;lfpy_lfpy;ff4dca79edaafab7c0e56e5f5ac260492dc5f275;ehagen <ehagen@2d86cfe5-f61f-4435-902d-8fa86043e322>;1317738076;some bugs sorted out
+pre;lfpy_lfpy;ff6e2d8155e936612469978aaccfe96c90dca9ce;ehagen <espenhgn@gmail.com>;1388751035;1.0
+pre;lfpy_lfpy;ff7c4ebab8bd5031a2904907802366bf599cb213;ehagen <espenhgn@gmail.com>;1388751039;release 1.0
+pre;lfpy_lfpy;ffac9580bf144f57fd2e41892347372f1cffb4b2;Espen Hagen <e.hagen@fz-juelich.de>;1518973687;"deleted file
+"
+pre;lfpy_lfpy;ffc37686c1b7921ca88b643f83cd15db7e7bf37a;henrli <henrli@2d86cfe5-f61f-4435-902d-8fa86043e322>;1373027079;Made the cell.verbose influence printout during simulation also in run_simulation.pyx/HL
+post;lfpy_lfpy;09e419ba5ba8e7130dcf9c7ad62ed8be9d522e72;Espen Hagen <2492641+espenhgn@users.noreply.github.com>;1737309111;"Remove Python 3.7 build test
+"
+post;lfpy_lfpy;26f50c9bcbcd693325bffc152a861bc95d5f9ccb;Torbjørn V. Ness <torbness@gmail.com>;1762944350;"Merge branch 'master' of github.com:torbjone/LFPy
+"
+post;lfpy_lfpy;289ed23160f3943c34b65065d3fd107968ea8caf;Espen Hagen <2492641+espenhgn@users.noreply.github.com>;1737536907;"test token
+"
+post;lfpy_lfpy;31a10e88581f560d481f6796140e7769e0860f91;Espen Hagen <2492641+espenhgn@users.noreply.github.com>;1737309978;"bump version
+"
+post;lfpy_lfpy;3382a5559b967336602173e875a2852e7859d653;to-br <tonjbrun@gmail.com>;1760965602;"All assertion errors fixed
+"
+post;lfpy_lfpy;3cf4c685682372408a5a8875e6702eca3c61ee7e;Torbjørn Vefferstad Ness <torbness@gmail.com>;1762947074;"bump version number (#474)
+
+"
+post;lfpy_lfpy;4101429bd7af53896f21790dc523d206a631ffb5;Torbjørn V. Ness <torbness@gmail.com>;1762945545;"bump version number
+"
+post;lfpy_lfpy;4f147e655d093c5842b6d9309c4e133350160f38;to-br <tonjbrun@gmail.com>;1760955851;"Creating a cell using an instance of neuron.h.SectionList as morphology argument - assertion error fix
+"
+post;lfpy_lfpy;66068cddeacf16e8c6aef683f749725e72ca1d85;to-br <tonjbrun@gmail.com>;1761046761;"Creating a cell using an instance of neuron.h.SectionList as morpholo… (#472)
+
+Due to updates in NEURON 9.X, instances of 'isinstance(morphology, type(neuron.h.SectionList))' had to be updated."
+post;lfpy_lfpy;8333e45158e9b3942d7ff582e1800fed09629e95;your_github_username <darshanmandge@users.noreply.github.com>;1737126166;"allow multiple args in templateargs + example04 update
+"
+pre;numenta_nupic;ffdec1aff518d23e5be78eb13251894d78d24bf3;Matthew Taylor <matt@numenta.org>;1497910813;"Documented pluggable encoder and record sensors.
+"
+pre;numenta_nupic;ffe064a2c1cb831258bc1019215f2defe23e7f99;Dmitriy Zaporozhets <dmitriy.zaporozhets@gmail.com>;1356976000;"Bit of cleanup and improving mailer
+"
+pre;numenta_nupic;ffe7671cb8e93be608d10ef1aef4c6c826dfe5a2;Matthew Taylor <rhyolight@gmail.com>;1379544360;"Merge pull request #266 from rhyolight/hotels
+
+Adding details about hotels."
+pre;numenta_nupic;ffe7be34de267f5239b550b21f38ddb3e3a7b2d3;Chetan Surpur <chetan51@gmail.com>;1411079094;"Add sequence labels to TemporalMemoryInspectMixin
+"
+pre;numenta_nupic;ffea13544138bb058439d53d7a52088d25b33950;Chetan Surpur <chetan51@gmail.com>;1412312599;"Merge pull request #1394 from chetan51/issue-1393
+
+Sort the indices while pretty-printing a trace"
+pre;numenta_nupic;ffea467f7e25f5f127eca8cfaea77c470522f15f;Chetan Surpur <chetan51@gmail.com>;1437092230;"Added comment
+"
+pre;numenta_nupic;ffee691cacefb53d1058dedb8c9d5ddb895801f5;Subutai Ahmad <sahmad@numenta.com>;1388188983;"Initial implementation of RandomDistributedScalarEncoder
+
+Initial implementation of random distributed encoder. Hotgym works well with it, but not fully debugged yet. Tests in process.
+"
+pre;numenta_nupic;fff4d6943a45cce687491c5918e110771afaf3f4;Austin Marshall <amarshall@numenta.com>;1374695336;"Explicitly write out init_cov_core.pth to overcome a problem with cov-core setup.py install
+"
+pre;numenta_nupic;fff80eefdea474bfe96074c81d0bebc72177ef6c;Subutai Ahmad <sahmad@numenta.com>;1397170619;"Merge pull request #800 from rhyolight/README-fix
+
+Updated NTA_ROOT_DIR to NTA_ROOTDIR
+"
+pre;numenta_nupic;fffb35f5ee5895f6f2ee3f1ccabbe07f39a529ca;Scott Purdy <scott@fer.io>;1434574243;"Merge pull request #2220 from tomsilver/NET-22102
+
+Create functions for commonly grouped regions
+"
+post;numenta_nupic;091b935bef885ee2600131ee15837d711cddba92;pen4 <sgi_kangxd@126.com>;1671498341;"update asteval 0.9.1 to 0.9.23
+"
+post;numenta_nupic;a395ee152dbadd0c0353be0f5fdc1ffe9f439185;xiaokang <pen4@users.noreply.github.com>;1671498852;"Merge 091b935bef885ee2600131ee15837d711cddba92 into b9ebedaf54f49a33de22d8d44dff7c765cdb5548
+"
+pre;sem-jl_sem.jl;fe836fbd90a717f62ba69e3945c3e3dfa8e360cf;Maximilian-Stefan-Ernst <maximilian.stefan.ernst@gmail.com>;1637415439;"fix starting values
+"
+pre;sem-jl_sem.jl;fe83c635a52d6ff8f2bb98df03c5bd995c280262;Maximilian-Stefan-Ernst <maximilian.stefan.ernst@gmail.com>;1632148708;"add to WLS
+"
+pre;sem-jl_sem.jl;fec95d85a7230ae7ee7dce64694b70ebe6bbe387;Documenter.jl <documenter@juliadocs.github.io>;1656670271;"build based on 866e84d
+"
+pre;sem-jl_sem.jl;fecdd6d7f725b5f6fd63f6b8d19d9eba9e541aa1;Maximilian-Stefan-Ernst <maximilian.stefan.ernst@gmail.com>;1636458036;"add to benchmarks
+"
+pre;sem-jl_sem.jl;ff0cc13ed3f2b4f20d1ca4444e42fe4869005fd6;Maximilian-Stefan-Ernst <maximilian.stefan.ernst@gmail.com>;1637415468;"add NLopt as backend
+"
+pre;sem-jl_sem.jl;ff7ff34ba29383dfd60a818b35ce2b9f7ecbfb44;Maximilian-Stefan-Ernst <maximilian.stefan.ernst@gmail.com>;1635092729;"add GLS and ridge
+"
+pre;sem-jl_sem.jl;ff8963a045e1557066cd2b8ddc22846c87ea1a3c;maximilian <maximilian.stefan.ernst@gmail.com>;1646492250;"fix start_fabin3
+"
+pre;sem-jl_sem.jl;ff98b185055cea5e33e25fbe4d59a8c562dc40bd;maximilian <maximilian.stefan.ernst@gmail.com>;1646526080;"fix mg tests
+"
+pre;sem-jl_sem.jl;ffc33d8b4f3a7e0ca0f42a7f79c929f436c07d69;maximilian <maximilian.stefan.ernst@gmail.com>;1649004776;"set gradient to 1 if !isposdef
+"
+pre;sem-jl_sem.jl;ffd980d487b4b25f34b74f7a35444f92f16fd37e;maximilian <maximilian.stefan.ernst@gmail.com>;1650214598;"fix MG test
+"
+post;sem-jl_sem.jl;003645dc6aa99633d6980e073d6e40db1ca90aea;Andreas Brandmaier <brandmaier@mpib-berlin.mpg.de>;1762349111;"Implement pseudoR2 function for SEM fitted models
+
+Adds a function to compute pseudo-R² for SEM models."
+post;sem-jl_sem.jl;00b69f79a81dc0013766d55ce489dbb48db4f32a;maximilian <maximilian.stefan.ernst@gmail.com>;1686661260;"update julia version for CI and docs
+"
+post;sem-jl_sem.jl;0131bb784d49286b527f06f251f59f9b9b11cd55;Alexey Stukalov <alyst@users.noreply.github.com>;1734648337;"prepare_param_bounds() API for optim
+"
+post;sem-jl_sem.jl;018b077a73806c39670b1d0b44468e8a3aa8356f;Alexey Stukalov <astukalol@seer.bio>;1710026606;"RAMConstant: simplify
+
+* declare RAMConstant field types
+* refactor constants collection to avoid code duplication
+"
+post;sem-jl_sem.jl;01d5d037024c1d85261b1acbd80b87531759bbc6;Alexey Stukalov <alyst@users.noreply.github.com>;1734898778;"EM: min_eigval kw for regularization
+"
+post;sem-jl_sem.jl;0303f21e40c99c4d210318c85f9fd8cb44c038f4;Maximilian-Stefan-Ernst <34346372+Maximilian-Stefan-Ernst@users.noreply.github.com>;1710673363;"Merge pull request #172 from StructuralEquationModels/dependabot/github_actions/actions/checkout-4
+
+Bump actions/checkout from 2 to 4"
+post;sem-jl_sem.jl;030c5b0e14dbe9ec3099d192e29b7888ce22fcb6;Alexey Stukalov <alyst@users.noreply.github.com>;1735279054;"SemObservedData: parameterize cov/mean eltype
+"
+post;sem-jl_sem.jl;032abfbff8ff6a0a2adde739703b72f439facaef;Alexey Stukalov <astukalol@seer.bio>;1711228811;"se_hessian!(): optimize calc
+
+* explicitly use Cholesky factorization
+"
+post;sem-jl_sem.jl;03416eb856591cf1f17b6a96ae700663a124b9ca;Maximilian Ernst <34346372+Maximilian-Stefan-Ernst@users.noreply.github.com>;1738495464;"Merge pull request #240 from StructuralEquationModels/rename_sem_summary
+
+close #158"
+post;sem-jl_sem.jl;0391a5e506a905ae8571c3a038ba0b1ea45e6719;Alexey Stukalov <astukalol@seer.bio>;1710027429;"obj!()/grad!(): avoid tmp array creation
+"
+pre;cardinalkit_cardinalkit;fd56a94f458eb895cc2723fd77b08088fbe15b9b;Santiago Gutierrez <ssgutierrez42@gmail.com>;1608788904;"Wipe CareKit on log-out.
+"
+pre;cardinalkit_cardinalkit;fe16d992fff3f34a74dafa1fd0f15ab031a75fba;Paul Schmiedmayer <PSchmiedmayer@users.noreply.github.com>;1657378342;"Update ruby action
+"
+pre;cardinalkit_cardinalkit;fe1dee0bc177a08266c3f4f862b98d9ce1d17db7;Vishnu Ravi <vishnu.ravi@gmail.com>;1668806067;"Updates ResearchKit to 2.1.1
+"
+pre;cardinalkit_cardinalkit;feaaf49c268fdf6f511a8760f7651c931e6bcef5;EstebanRamosFractal <46715376+EstebanRamosFractal@users.noreply.github.com>;1656714105;"remove firebase as database completely
+
+It is only used as an authentication system
+"
+pre;cardinalkit_cardinalkit;febaf5b90613ca7a75cc02842caf93d167ff6d6b;Collin Schlager <schlagercollin@gmail.com>;1615712206;"Merge branch 'main' of github.com:cswingle98/CardinalKit into main
+"
+pre;cardinalkit_cardinalkit;feeed3d6acc3f47562615cdca62625a394e2d767;Paul Schmiedmayer <PSchmiedmayer@users.noreply.github.com>;1661116395;"Fix file name issue
+"
+pre;cardinalkit_cardinalkit;ff267e3a9586a66d2ce315a6b1f549de2726d3d2;Paul Schmiedmayer <PSchmiedmayer@users.noreply.github.com>;1666844258;"Update Fastfile
+"
+pre;cardinalkit_cardinalkit;ff3adc2254eef9a663ed4d486156f4b446236726;geoffrosen <geoffrosen@users.noreply.github.com>;1642359021;See separate pull request
+pre;cardinalkit_cardinalkit;ff7c0482c5660f809e1ee6411694831b780f4828;Santiago Gutierrez <ssgutierrez42@gmail.com>;1608687544;"Updated app icon. Added more assets (CardinalKit and Stanford Biodesign). Default CKConfiguration sample is now more verbose and instructional.
+"
+pre;cardinalkit_cardinalkit;ffe8045725b143e731553942f0c2f5920856d4d1;allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>;1657558368;"docs: add PSchmiedmayer as a contributor for code (#137)
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>"
+post;cardinalkit_cardinalkit;185b93607ff8b5a88e12eb303371def7a90e8628;Vishnu Ravi <vishnu.ravi@gmail.com>;1735057921;"Merge 2711d241553d96a7fd4742a6af02aa1ee85b3574 into 4a1d26e518a23bc7664b986a8dead97c520c422a
+"
+post;cardinalkit_cardinalkit;2711d241553d96a7fd4742a6af02aa1ee85b3574;Vishnu Ravi <vishnur@stanford.edu>;1732544478;"Update README
+"
+post;cardinalkit_cardinalkit;310651fa9ef1442b7e21dc2c806f9cdac2f911c4;Vishnu Ravi <vishnur@stanford.edu>;1732543003;"Create test plan
+"
+post;cardinalkit_cardinalkit;3e7a247b4674843dde7cb34567482d44c45fc3bc;Vishnu Ravi <vishnur@stanford.edu>;1732625228;"Update sample tasks
+"
+post;cardinalkit_cardinalkit;499b16ba6a608aaef8cddd44f01552984947cebf;Vishnu Ravi <vishnur@stanford.edu>;1732544063;"Update workflow
+"
+post;cardinalkit_cardinalkit;4a1d26e518a23bc7664b986a8dead97c520c422a;Vishnu Ravi <vishnu.ravi@gmail.com>;1732626410;"Updates ResearchKitOnFHIR (#175)
+
+"
+post;cardinalkit_cardinalkit;4c9c91088fdd83f35c0b7a822566a9185cc4c7c2;Vishnu Ravi <vishnur@stanford.edu>;1730576326;"Fixes a build error in Xcode 16 due to BoringSSL-GRPC
+"
+post;cardinalkit_cardinalkit;4f166cfb6082a6dff678f687c1c797d69a56c5ac;Vishnu Ravi <vishnur@stanford.edu>;1732623199;"Update podspec
+"
+post;cardinalkit_cardinalkit;56b72a8f2b85cbb92ccd250319884ec564f06a9b;Vishnu Ravi <vishnur@stanford.edu>;1746508126;"Update project status
+"
+post;cardinalkit_cardinalkit;56d22852671b44651a1206c0b47f9ef275893269;Vishnu Ravi <vishnur@stanford.edu>;1732536798;"Fix dependency resolution issue
+"
+pre;annecori_epiestim;085709e7d3ddb52d8e7a6ed3b9b8031870561806;anne cori <annecori@users.noreply.github.com>;1446815396;"Initial commit
+"
+pre;annecori_epiestim;147e162d8128844fa4b57bd2cc1ac4367e9b7770;Anne Cori <annecori@WPIA-DIDELT012.local>;1446815858;"Adding the code for version 1.1-2 of EpiEstim R package
+"
+post;annecori_epiestim;00ab1cac670e41acfbbcecfc4f0e7f5804938a05;Anne Cori <a.cori@imperial.ac.uk>;1656407829;"bumping version number
+"
+post;annecori_epiestim;0164661d101fb9113aacac43a978dd71850b320a;sangeeta <sangeetabhatia03@gmail.com>;1624627725;"Updated namespace
+
+"
+post;annecori_epiestim;0181c92abc58acaf10caea8651f584ffbdb32da8;Anne Cori <a.cori@imperial.ac.uk>;1656434635;"cosmetic changes
+"
+post;annecori_epiestim;023ba2beb4c93cbd8658cb27902a579e7604d837;sangeeta <sangeetabhatia03@gmail.com>;1627642518;Merge remote-tracking branch 'origin/multiv' into draw_eps_debug
+post;annecori_epiestim;025ea5bfbc93cdb874b575118b0a8a12cef248ec;Rebecca Nash <rebecca.katherine.nash@gmail.com>;1621515602;"test for correct R
+"
+post;annecori_epiestim;02756e4764f875faf1d324d83e87e5c3e87047dc;Rebecca Nash <rebecca.katherine.nash@gmail.com>;1624897195;"Convergence check and test added
+"
+post;annecori_epiestim;0337162a9b54d31a7282e9579bd55205ced10a7b;Anne Cori <a.cori@imperial.ac.uk>;1526657863;"documented different ways to specify incid argument in estimate_R in vignette
+"
+post;annecori_epiestim;03a8fc861237c86a764240fb945a7a5f193afd16;Zhian N. Kamvar <zkamvar@gmail.com>;1562063818;Merge branch 'master' into fix-70
+post;annecori_epiestim;03ca90dea9cf928e4c9917079454e97e260ac2f2;Anne Cori <a.cori@imperial.ac.uk>;1525195598;"renamed function DiscrSI to be discr_si
+"
+post;annecori_epiestim;053aa9a2ed0d55bf1a45b66192aa897f792910c9;Tim Pollington <timothy.pollington@gmail.com>;1619712022;Update
+pre;yulunzhang_rcan;b6567370dd8d25762ce88994f4658086185aae1b;Yulun Zhang <yulun100@gmail.com>;1532020299;update dropbox
+pre;yulunzhang_rcan;b7690c0e8e70db8631e9d0c7754dc3d9b20f79ae;Johnsp123 <johnsp708@gmail.com>;1688872655;Update PSNR_SSIM_Results_BI_model.txt
+pre;yulunzhang_rcan;b90f676523949538340b4a37763de7d7b48c2702;Yulun Zhang <yulun100@gmail.com>;1568747387;Update myimage.py
+pre;yulunzhang_rcan;c4d133d8136e43fd1ef3a2e94e97539f53b81514;Yulun Zhang <yulun100@gmail.com>;1568747452;Update utility.py
+pre;yulunzhang_rcan;d09c527741dec42050c3aac5202e65d92e71b93e;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655865768;"Bump numpy from 1.18.5 to 1.22.0
+
+Bumps [numpy](https://github.com/numpy/numpy) from 1.18.5 to 1.22.0.
+- [Release notes](https://github.com/numpy/numpy/releases)
+- [Changelog](https://github.com/numpy/numpy/blob/main/doc/HOWTO_RELEASE.rst)
+- [Commits](https://github.com/numpy/numpy/compare/v1.18.5...v1.22.0)
+
+---
+updated-dependencies:
+- dependency-name: numpy
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;yulunzhang_rcan;d4e7bb8854ae05d538f93fab54383c5a04c83139;Yulun Zhang <yulun100@gmail.com>;1531862836;add all pretrained models on BaiduYun
+pre;yulunzhang_rcan;e02ee9e736dc933e30ecb9c4b603e3494888183e;Joao Herrera <joao.herrera@outlook.com>;1598202296;"Create Dockerfile and add some extra libs to requirements.txt
+"
+pre;yulunzhang_rcan;e2a49a7d67082bfc64e7aa70dbda920ca3fe5abd;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1631068140;"Bump pillow from 7.2.0 to 8.3.2
+
+Bumps [pillow](https://github.com/python-pillow/Pillow) from 7.2.0 to 8.3.2.
+- [Release notes](https://github.com/python-pillow/Pillow/releases)
+- [Changelog](https://github.com/python-pillow/Pillow/blob/master/CHANGES.rst)
+- [Commits](https://github.com/python-pillow/Pillow/compare/7.2.0...8.3.2)
+
+---
+updated-dependencies:
+- dependency-name: pillow
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;yulunzhang_rcan;f1cfdbe944637de550283e8a44aaa2971cb761bf;yulunzhang <yulun100@gmail.com>;1531713192;"readme
+"
+pre;yulunzhang_rcan;f39edcc4f6ec1cf55d2d93254bba7ce81918414b;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1616718175;"Bump pyyaml from 5.3.1 to 5.4
+
+Bumps [pyyaml](https://github.com/yaml/pyyaml) from 5.3.1 to 5.4.
+- [Release notes](https://github.com/yaml/pyyaml/releases)
+- [Changelog](https://github.com/yaml/pyyaml/blob/master/CHANGES)
+- [Commits](https://github.com/yaml/pyyaml/compare/5.3.1...5.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;yulunzhang_rcan;4886c821f559a723ee08057f29c2b449eaef2472;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1744596796;"Merge d09c527741dec42050c3aac5202e65d92e71b93e into f722e5d0e1eff45148bfaefd9bc85c6f0f26ce02
+"
+post;yulunzhang_rcan;c955ce79faea5d5267489b93e6d381050dbbf1c0;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1744597379;"Merge 16756f03dc5fffe5a3b9d27b17e7c29e90ba2471 into f722e5d0e1eff45148bfaefd9bc85c6f0f26ce02
+"
+post;yulunzhang_rcan;d30f889ce62caefe1d1a363117035ee5e6738378;Yulun Zhang <yulun100@gmail.com>;1743486066;Update Google Drive like for Results_ECCV2018RCAN_BIX2X3X4X8.zip
+post;yulunzhang_rcan;e92e1c845196207863fb3441ceadfc91457e1756;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1744597513;"Merge f39edcc4f6ec1cf55d2d93254bba7ce81918414b into f722e5d0e1eff45148bfaefd9bc85c6f0f26ce02
+"
+post;yulunzhang_rcan;f722e5d0e1eff45148bfaefd9bc85c6f0f26ce02;Yulun Zhang <yulun100@gmail.com>;1743486202;Update Google Drive link for models
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;e385c0373322936a9ca0f23b4be6393e4fd68edb;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1543052981;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;e803ce9ea5035522218ba9af73bf2f5d57d789e7;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1543142989;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;e8fbec070d1a1296078a66f6a35d4cfc7d0c89b2;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1542975832;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;f00dcad55ac56cbd14fcaec737881a23f3222c30;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1543322168;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;f12b3dbda8e24e780a9311ddf4d05fc43cb4efe1;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1543243899;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;f1fa4b7b3b92dca6010601e5689a1f28b6945ea4;amisolution <siriusgem1@gmail.com>;1543421028;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;f5d511bb7c097ff0305a6d05493c3ed53cd9da60;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1543254704;Update README.md
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;f65df5b27cd0bdf64a1508775b680920bf41ad7b;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1543322414;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;ff8d2dfdedd7e084d472ffcadfc5acbf0c51502d;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1543251890;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;hol137_jupyter-notebook-practice-physical-constants-ratios;ffaece7540ce9365ad6c6b60c9bb3d585344c580;Laurent G. OSSBSS AMIS UCC <lgueroult@hotmail.com>;1543234136;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+post;hol137_jupyter-notebook-practice-physical-constants-ratios;fa0466d34129cab6d1871b3d1cadbd1b915d1662;hol137 <45430549+hol137@users.noreply.github.com>;1734793229;Update Jupyter-Notebook Practice Physical Constants Ratios.ipynb
+pre;qupath_qupath;f310fb46e5c0c57f6e00651f7b3b4bf770be020f;pete <pete.bankhead@gmail.com>;1478783659;"Information about survival column used now logged
+"
+pre;qupath_qupath;f4c517ce9e7512d9cac3deb95555ba83e82bcb9c;Pete <pete.bankhead@gmail.com>;1476810733;"Added check for updates on startup
+"
+pre;qupath_qupath;f5fde731a1b203f409e61056ab85ea6aa8849e18;pete <pete.bankhead@gmail.com>;1478436265;"Improved SLICO implementation's connectivity/size cleanup
+
+Small regions are now merged
+"
+pre;qupath_qupath;f6320b45a9ba045db430742363aa234938f7b81a;pete <pete.bankhead@gmail.com>;1476120740;Make Inverse Annotation command now reassigns child objects
+pre;qupath_qupath;f8b984fd0fe05a3306ed3cfc243d48d8161ab897;pete <pete.bankhead@gmail.com>;1478941807;"Fixed ImageJ server bug where underlying ImagePlus could be resized
+"
+pre;qupath_qupath;fabd5b98137b1f4fb7fdfc01baedacec607e117f;Pete <pete.bankhead@gmail.com>;1477058386;"Adding TMA rows/columns now allowed, even if they don't fit in image
+"
+pre;qupath_qupath;fc46d1892f8666ade49c8fe005ef59f49b8cbe2b;Pete <pete.bankhead@gmail.com>;1478521492;"Locale information now stored in .qpdata files
+
+This is then temporarily applied when reading data, if required.
+
+The aim is to prevent changes of locale from causing a file to become
+unreadable (e.g. through change of decimal separator).
+"
+pre;qupath_qupath;fe6938e8bb6a8a6d7c290339cfadf106de76a3ba;Pete <pete.bankhead@gmail.com>;1478530772;"Improvements to efficiency of MeasurementLists
+
+Previously, DefaultMeasurementLists always used for PathObjects unless
+another list was provided in the constructor.
+
+Since I forgot this myself, and inadvertently made many very
+inefficient lists, the default behavior has changed for
+PathDetectionObjects - which will use float lists which required.
+
+In order to implement this more generally, a new projected method was
+added to PathObject.
+"
+pre;qupath_qupath;ff01451595a4e7b7496eca0ebe051344979c9240;Pete <pete.bankhead@gmail.com>;1476471888;"Added ability to change project entry names
+
+It remains to be seen how well this works in practice… since sometimes
+the name is got from the project, sometimes from the ImageServer.
+"
+pre;qupath_qupath;ff182f665e124e937a554cd1a92de74015f72792;Pete <pete.bankhead@gmail.com>;1476993421;"Added test clustering command
+"
+post;qupath_qupath;003275d9ac94ebfa4c99e0b66fe19afe2c0fbd19;Pete <pete.bankhead@gmail.com>;1687345326;"Bug fixes
+
+Also use channel filter prompt text to indicate whether regular expressions are turned on
+"
+post;qupath_qupath;003d2063c082fa1b03f7d32c950b761a40c9c0ec;Pete <pete.bankhead@gmail.com>;1736869931;"Move measurements into a new package
+
+This shouldn't depend upon JavaFX, so in the future can be moved up to a more core module.
+"
+post;qupath_qupath;007b18108b9f43954279403cb1f796d7ada4b521;Alan O'Callaghan <alan.ocallaghan@outlook.com>;1689609467;"Add changelistener to downsamplefactor
+"
+post;qupath_qupath;00814a3eca95f84048e4b4f6674862d520ddc97e;Pete <pete.bankhead@gmail.com>;1687247694;"Improve show/hide/toggle using key presses
+
+Previously, pressing space or enter with the channel table in focus could toggle a single selected channel - but not all of them.
+Now it's possible to show/hide/toggle all selected channels by pressing S/H/T or Enter/Backspace/Space respectively. The reason for two options is that S/H/T is more 'logical' (at least in English...) but requires more keyboard searching - whereas the other keys are typically easy to find quickly, if you know the option is there.
+"
+post;qupath_qupath;008c59dadbc759c4020a3608cf9d6ecf4d2fc3fd;Pete <pete.bankhead@gmail.com>;1618239564;"Merge pull request #710 from petebankhead/fixes-0.3
+
+Update to Gradle 7, fix pixel classifier colormaps being locked"
+post;qupath_qupath;00af3815fb14d1e11c095bc661c7099031ae4c37;Pete <pete.bankhead@gmail.com>;1668613854;"Fix ImageJ rotation bug
+
+Fixes https://github.com/qupath/qupath/issues/1138
+"
+post;qupath_qupath;00b1958e8c4fa26850484c66b20132819ba5bfbd;Pete <pete.bankhead@gmail.com>;1729536883;"Open macros in macro runner, not script editor
+"
+post;qupath_qupath;00ccfb28af8fd5a069b9e303f78b2d8043fabbbc;pete <pete.bankhead@gmail.com>;1627730014;"Initial DnnObjectClassifier implementation
+
+Also support null size/scalar values in JSON output.
+"
+post;qupath_qupath;00d05ffaefa7e69ab7fc15a7e80d1ed180387540;lleplat <lleplat@ed.ac.uk>;1709301183;"Addressed comments
+"
+post;qupath_qupath;00e00562c4c5a36f906c2f8d3f7db71ae5072ea0;Pete <pete.bankhead@gmail.com>;1695896601;"Merge pull request #1349 from petebankhead/split-by-line
+
+New split-by-line scriptable command"
+pre;ceedee666_opensap_python_intro;fb9bfd168a23137e437582f02b4bfdcf6d7a0c3f;LH <hildebrand@fh-aachen.de>;1649146795;"ex_4-4 md updated
+"
+pre;ceedee666_opensap_python_intro;fc404f66fb941ea39acb183c13646cf001b7c475;LH <hildebrand@fh-aachen.de>;1634221954;"renamed files
+small corrections
+"
+pre;ceedee666_opensap_python_intro;fd270f6213e22de3993dbbe943a2e79fc402ad38;Christian Drumm <christian.drumm@hey.com>;1648068037;"added idea for week 4 assignment
+"
+pre;ceedee666_opensap_python_intro;fd47c1d56242a329fb83c6bd9cb908ace6c2364f;LH <hildebrand@fh-aachen.de>;1646903083;"fixed typos
+"
+pre;ceedee666_opensap_python_intro;fd87253494c11eef243835b257cd848df28d4286;LH <hildebrand@fh-aachen.de>;1643293701;"for-loop --> for loop
+"
+pre;ceedee666_opensap_python_intro;fdd7377e06c04977ab46f3a2818004767279cbde;stjaco62 <jacobs@fh-aachen.de>;1643227773;"Merge branch 'ceedee666:main' into main
+"
+pre;ceedee666_opensap_python_intro;fde36d54b83e54769b71553a6aa4d48c30d47135;LH <hildebrand@fh-aachen.de>;1641478784;"rn 4-6
+"
+pre;ceedee666_opensap_python_intro;fe2d568d27720ecb1de5fa2e98c284a7158e743c;LH <hildebrand@fh-aachen.de>;1647937553;"w1_BO description udpated
+"
+pre;ceedee666_opensap_python_intro;feb8191d4839d6901c4fede1338770f32f37a25d;Christian Drumm <ceedee666@users.noreply.github.com>;1642171803;"Merge pull request #40 from Hiltiprant/main
+
+img for 1-5 changed"
+pre;ceedee666_opensap_python_intro;feda2662bba03206deb220f9d6e4b575a8a6197e;Christian Drumm <christian.drumm@hey.com>;1648040533;"finished bonus exercise for week 3
+"
+post;ceedee666_opensap_python_intro;43b365f90986bb006b514e38a132462e8ff65088;Christian Drumm <ceedee666@users.noreply.github.com>;1740597520;"Merge pull request #171 from ceedee666/ceedee666-patch-1
+
+Update README.md"
+post;ceedee666_opensap_python_intro;bff7e855e195352530b06444e41324fac0d93ede;Christian Drumm <ceedee666@users.noreply.github.com>;1737704863;Updated Readme after migration to codeberg
+post;ceedee666_opensap_python_intro;e3796753f5517b9f1ec7ec80f7c8d93fe1edadd4;Christian Drumm <ceedee666@users.noreply.github.com>;1740597559;Update README.md
+post;ceedee666_opensap_python_intro;efefa6b20620746c9383915d036883ba7c8410c8;Christian Drumm <ceedee666@users.noreply.github.com>;1740597485;Update README.md
+pre;deepmind_acme;fdbf4c01cf058d4191f35d6a8103ccf5062cc33a;John Schultz <jhtschultz@gmail.com>;1610575696;"Access OpenSpiel env properties instead of private attributes.
+"
+pre;deepmind_acme;fdf6e26633c28cad5f38d859b5f1d713278cd401;Piotr Stanczyk <stanczyk@google.com>;1646218501;"Internal change
+
+PiperOrigin-RevId: 431893236
+Change-Id: Ibb8ea8ef2217c30268a0d11ac0d80394ebd69c7e
+"
+pre;deepmind_acme;fe163fb0e939081409b2fa00e5e47dad63b40014;Khush Jammu <khushjammu@gmail.com>;1628177637;"changes
+"
+pre;deepmind_acme;fe6ecb8283bb01dcdeb10e1a53a155256b83785c;EvolvedSquid <25444757+EvolvedSquid@users.noreply.github.com>;1591795866;"Fixes typos and Colab badges
+"
+pre;deepmind_acme;fef5a21c0bc02cdb3b9febab37ca2777222b48de;Matthew W. Hoffman <mwhoffman@google.com>;1622126492;"Remove TFClient from tf-DQN.
+
+PiperOrigin-RevId: 376166835
+Change-Id: I5f2ab72a0c09e4fce8475002ccc5d619a08104fb
+"
+pre;deepmind_acme;ff0b4b8dfcb88b9edd504058b01495ec2c2b5743;Piotr Stanczyk <stanczyk@google.com>;1639052542;"Release new PyPi version.
+
+PiperOrigin-RevId: 415230385
+Change-Id: Iade47e6c6762c2dfbd485f67fbef128df623cbf3
+"
+pre;deepmind_acme;ff15147975f5a345fa09c60a98aad2247d71fc77;Arya Vohra <arya.vohra04@gmail.com>;1627959234;"Stonks with async variable client update
+"
+pre;deepmind_acme;ff23ae241bd5426bc393e934756aa594050867b5;Sridhar Thiagarajan <sthiagarajan@google.com>;1666091047;"Fix priority updating in dqn, bve and batch_rl dqn.
+
+The reverb uint64 key is being truncated in dqn and derivative agents using a prioritized loss, and becomes int32. This results in reverb not updating the priority of the samples. The fix is to keep the reverb key on the host and preserve its original type, like the R2D2 agent.
+
+PiperOrigin-RevId: 481880357
+Change-Id: Iabbcac579ec894ead844df70730d524803eab879
+"
+pre;deepmind_acme;ff5680919ab8c96988d78f01b46b264b01203382;Sergio Gomez <sergomez@google.com>;1592476757;"Add option to disable snapshotting in BC learner
+
+PiperOrigin-RevId: 317071067
+Change-Id: I4c52fea02f4063a050e4844ec2b01309c0276145
+"
+pre;deepmind_acme;ff9b7addd5ee83c333f5c0725672673446f01477;John Schultz <jhtschultz@gmail.com>;1610642914;"Clarify TODO.
+"
+post;deepmind_acme;01b3696e3892ea3bf4bd0364c2deaeae90515a46;Daniel Suo <dsuo@google.com>;1758891225;"[acme] Explicitly set `jax_pmap_shmap_merge=False`.
+
+Part of a larger clean-up to migrate users of `jax.pmap` to `jax.shard_map`. Explicitly set old-style `jax.pmap` for `bc` and `mbop` `agent_tests` since they flakily time out.
+
+PiperOrigin-RevId: 811783948
+Change-Id: I0e50868ee9cd3145437e7a15c3350d248e81bd89
+"
+post;deepmind_acme;0be0d4f9e27f06de0eab482e3280be54f792ae15;Acme Contributor <noreply@google.com>;1748521902;"Actually include all WPO files this time
+
+PiperOrigin-RevId: 764687466
+Change-Id: I62bf3f434f622d3cc45abbbe96d7fd34c8352f52
+"
+post;deepmind_acme;179fa97896d11d39dad4f4a9b009e839a43284e2;Alan Cooney <41682961+alan-cooney@users.noreply.github.com>;1759150590;"Merge 1a3877e0cab14da780238e84a9d3d9a1efc97490 into 01b3696e3892ea3bf4bd0364c2deaeae90515a46
+"
+post;deepmind_acme;25753924471b25cbf1e803cf905b22ed85b9a88c;deepseekr1d2 <www.deepseek.com@hotmail.com>;1739718539;sudo su && README.md
+post;deepmind_acme;2906e3638e2f092640ff2fe9fb7c1f4842af6b0f;cnm13ryan <channokman16@gmail.com>;1723380876;"fix: Added poetry, pyenv, backupfiles by vim
+"
+post;deepmind_acme;29dc7fc4d2d136ef62b0cb80e4085d1682995208;hwilner <harel.j.wilner@gmail.com>;1762067447;"Merge a915ab1fda79f30e46f43e9a71f4a8b5601ce302 into 01b3696e3892ea3bf4bd0364c2deaeae90515a46
+"
+post;deepmind_acme;2d7d461fc8903b7e4bba460774044b5068c4f0f0;cnm13ryan <channokman16@gmail.com>;1723391568;"fix: downgraded protobuf
+"
+post;deepmind_acme;2d85428d863906ee5d258395c473881b10644ebf;Douglas Shane Davis <WWW.COPILOT.MICROSOFT.COM@GMAIL.COM>;1735337066;"Merge 92c82076ac03ef8a1ef403505caaa8d8a00760f7 into 5e7503f95fb7cd9511c34f00f953b4e18c8db6cf
+"
+post;deepmind_acme;300e9eef6dc4e1ebf8640dbf6e29c127627904cc;hwilner <harel.j.wilner@gmail.com>;1762067270;"Add Implicit Q-Learning (IQL) implementation
+
+Implements IQL offline RL algorithm with:
+- Expectile regression for value function
+- TD learning for Q-function
+- Advantage-weighted regression for policy
+- Complete learner, builder, and networks
+- Comprehensive documentation
+
+Addresses issue #329
+"
+post;deepmind_acme;3808c7c6fd7cfe7898561bf5104e1ca39a86c9d9;manipratapsingh1 <manipratapsingh540@gmail.com>;1743858451;"Improve README for better clarity and onboarding
+
+Revamped the README to enhance readability and accessibility for new users and contributors. 
+
+Key improvements include:
+- Added badges for Python version, PyPI, tests, and documentation
+- Introduced structured sections with emojis for quick navigation
+- Included installation steps with virtual environment setup
+- Added quick usage example for DQN agent
+- Linked documentation, tutorials, and technical report
+- Clarified contribution guidelines and added citation format
+
+These changes aim to provide a friendlier and more informative starting point for researchers and developers using Acme."
